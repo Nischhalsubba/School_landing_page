@@ -1,6 +1,6 @@
-@import 'helpers/variables';
-@import 'helpers/mixins';
-@import 'helpers/spacings';
+@import 'variables';
+@import 'mixins';
+@import 'spacings';
 /* Reset CSS */
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900&display=swap');
@@ -210,15 +210,15 @@ input[type="number"] {
         }
     }
     &--orange {
-        color: #ffffff;
-        background-color: #fc593b;
+        color: $color-white;
+        background-color: $color-orange;
         &:hover {
             color: #fff;
-            background-color: rgba(#fc593b,.8);
+            background-color: rgba($color-orange,.8);
             
         }
         &.btn-hover-shine{
-            background-color: rgba(#fc593b,1);
+            background-color: rgba($color-orange,1);
         }
     }
     &-outlined--white {
@@ -232,15 +232,15 @@ input[type="number"] {
     }
     &--white {
         color: $primary-color;
-        background-color: #ffffff;
+        background-color: $color-white;
         &:hover {
             color: $primary-color;
-            background-color: rgba(#ffffff,.8);
+            background-color: rgba($color-white,.8);
             
         }
     }
     &--green {
-        color: #ffffff;
+        color: $color-white;
         background-color: #4eab08;
         &:hover {
             background-color: rgba(#4eab08,.8);
