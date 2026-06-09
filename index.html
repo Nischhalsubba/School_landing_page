@@ -29,6 +29,7 @@
 
   <link rel="preload" as="image" href="./image/nepal-students-sankhu-web.jpg">
   <link rel="stylesheet" href="./css/revamp.css">
+  <link rel="stylesheet" href="./css/nepali-school-theme.css">
 
   <script type="application/ld+json">
   {
@@ -55,6 +56,13 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
+  <div class="school-announcement" role="region" aria-label="School announcement">
+    <div class="announcement-inner">
+      <span>Admissions 2026 are open for Hattiban, Lalitpur families.</span>
+      <a href="#admissions">Book a campus visit</a>
+    </div>
+  </div>
+
   <header class="site-header" id="top">
     <nav class="nav-shell" aria-label="Primary navigation">
       <a class="brand" href="#top" aria-label="Lalitpur Academy School home">
@@ -76,6 +84,7 @@
         <a href="#nepal">Nepal focus</a>
         <a href="#programs">Programs</a>
         <a href="#experience">Campus life</a>
+        <a href="#calendar">School rhythm</a>
         <a href="#admissions">Admissions</a>
         <a href="#contact">Contact</a>
       </div>
@@ -88,10 +97,15 @@
     <section class="hero">
       <div class="page-gutter hero-grid">
         <div class="hero-copy" data-animate="hero">
-          <p class="eyebrow">Admissions open in Lalitpur, Nepal</p>
-          <h1>Rooted in Nepal. Ready for the world.</h1>
+          <p class="eyebrow">Nepal-rooted school in Lalitpur</p>
+          <h1>Rooted in <span>Nepal</span>. Ready for the world.</h1>
           <p class="hero-lede">Lalitpur Academy School blends strong academics, Nepali values, language, culture,
             service, sports, and practical skills so students grow with confidence and character.</p>
+          <ul class="hero-badges" aria-label="School experience highlights">
+            <li>Nepali identity</li>
+            <li>English confidence</li>
+            <li>Family partnership</li>
+          </ul>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="btn-primary-action" href="#admissions">Start admission</a>
             <a class="btn-secondary-action" href="#nepal">Explore Nepal focus</a>
@@ -99,7 +113,7 @@
           <div class="hero-metrics" aria-label="School highlights">
             <div>
               <strong>NP</strong>
-              <span>Nepal-based curriculum and culture</span>
+              <span>Nepal-based learning, values, and culture</span>
             </div>
             <div>
               <strong>K-10</strong>
@@ -117,7 +131,7 @@
             alt="Students outside a classroom at Shree Bhagawati Secondary School in Sankhu, Nepal">
           <div class="hero-note">
             <span class="note-kicker">Namaste</span>
-            <span>A school experience shaped by Kathmandu Valley life, Nepali identity, and future-ready learning.</span>
+            <span>A warm school experience shaped by Kathmandu Valley life, Nepali identity, and future-ready learning.</span>
           </div>
         </div>
       </div>
@@ -148,7 +162,7 @@
       <div class="page-gutter split-grid">
         <div class="section-heading left" data-animate="section">
           <p class="eyebrow">Nepali theme</p>
-          <h2>Education that feels at home in Nepal.</h2>
+          <h2>Education that feels at home in <span>Nepal</span>.</h2>
           <p>Students learn through local examples, Nepali festivals, civic responsibility, environmental care, and
             classroom projects connected to the places they know.</p>
         </div>
@@ -227,6 +241,51 @@
           </div>
         </div>
       </div>
+
+      <div class="page-gutter experience-panel">
+        <div class="notice-grid" data-animate="cards">
+          <article class="notice-card">
+            <strong>Morning welcome</strong>
+            <p>Students begin with greetings, notices, quiet readiness, and a clear plan for the school day.</p>
+          </article>
+          <article class="notice-card">
+            <strong>Learning rhythm</strong>
+            <p>Lessons move between classroom focus, group work, practical tasks, sports, and reflection.</p>
+          </article>
+          <article class="notice-card">
+            <strong>Family updates</strong>
+            <p>Parents get simple communication about attendance, progress, events, and support needs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block nepal-section" id="calendar">
+      <div class="page-gutter">
+        <div class="section-heading" data-animate="section">
+          <p class="eyebrow">School rhythm</p>
+          <h2>A calendar shaped by learning, culture, and care.</h2>
+          <p>The experience feels local without becoming decorative noise, because somehow humans keep confusing
+            confetti with culture.</p>
+        </div>
+        <div class="calendar-grid" data-animate="cards">
+          <article class="calendar-card">
+            <span class="pill-token">Values</span>
+            <strong>Assembly and house culture</strong>
+            <p>Students practice public speaking, teamwork, responsibility, and respect through weekly routines.</p>
+          </article>
+          <article class="calendar-card">
+            <span class="pill-token">Festivals</span>
+            <strong>Nepali celebrations with meaning</strong>
+            <p>Dashain, Tihar, Saraswati Puja, and local events become moments for language, art, music, and service.</p>
+          </article>
+          <article class="calendar-card">
+            <span class="pill-token">Community</span>
+            <strong>Learning beyond textbooks</strong>
+            <p>Projects connect classrooms to heritage sites, neighborhoods, environmental care, and daily life in Nepal.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <section class="section-block admissions-section" id="admissions">
@@ -292,7 +351,7 @@
 
         <div class="community-grid" data-animate="cards">
           <article class="story-card large-card">
-            <img src="./image/nepal-after-school-bhaktapur-web.jpg" alt="Students after school in Bhaktapur, Nepal">
+            <img src="./image/nepal-after-school-bhaktapur-web.jpg" alt="Students after school in Bhaktapur, Nepal" loading="lazy">
             <div>
               <h3>Community beyond the gate</h3>
               <p>Students learn that school life is connected to neighborhoods, heritage streets, families, and public
@@ -300,14 +359,14 @@
             </div>
           </article>
           <article class="story-card">
-            <img src="./image/nepal-village-school-students-web.jpg" alt="Nepali village school students">
+            <img src="./image/nepal-village-school-students-web.jpg" alt="Nepali village school students" loading="lazy">
             <div>
               <h3>Respect for every learner</h3>
               <p>Care, dignity, and patience shape how teachers work with each child.</p>
             </div>
           </article>
           <article class="story-card">
-            <img src="./image/nepal-students-sankhu-web.jpg" alt="Students outside a classroom in Sankhu, Nepal">
+            <img src="./image/nepal-students-sankhu-web.jpg" alt="Students outside a classroom in Sankhu, Nepal" loading="lazy">
             <div>
               <h3>Learning with roots</h3>
               <p>Students are encouraged to value Nepal while building the skills to study and work anywhere.</p>
