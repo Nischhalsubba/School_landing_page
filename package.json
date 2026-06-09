@@ -1,0 +1,20 @@
+{
+  "name": "lalitpur-academy-school-site",
+  "version": "2.0.0",
+  "private": true,
+  "description": "SEO-first static school website for Lalitpur Academy School, built with semantic HTML, modern Sass, and vanilla JavaScript.",
+  "type": "module",
+  "scripts": {
+    "dev": "sass --watch src/scss/main.scss:css/main.css --style=expanded --source-map",
+    "build:css": "sass src/scss/main.scss:css/main.css --style=compressed --no-source-map",
+    "format": "prettier --write \"**/*.{html,scss,css,js,json,md,txt,xml}\"",
+    "check:format": "prettier --check \"**/*.{html,scss,css,js,json,md,txt,xml}\""
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "sass": "latest"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
