@@ -1,0 +1,32 @@
+# Lalitpur Academy School
+
+SEO-first static website for a Nepal-rooted school in Hattiban, Lalitpur.
+
+## Purpose
+
+Help parents understand the school, explore the Nepal-focused education approach, and request an admissions call for 2026.
+
+## Key facts
+
+- School: Lalitpur Academy School
+- Short name: LAS
+- Location: Hattiban, Lalitpur, Nepal
+- Programs: Early Years, Primary School, Middle School, Secondary School
+- Audience: parents and guardians in Lalitpur and Kathmandu Valley
+
+## Important URLs
+
+- Home: https://las.edu.np/
+- Admissions: https://las.edu.np/#admissions
+- Nepal focus: https://las.edu.np/#nepal
+- Programs: https://las.edu.np/#programs
+- FAQ: https://las.edu.np/#faq
+
+## Technical notes
+
+- Semantic HTML content is visible in the source.
+- Structured data is included with JSON-LD.
+- Sass source: src/scss/main.scss
+- Compiled CSS: css/main.css
+- JavaScript: js/revamp.js
+- No jQuery or heavy front-end framework is required.
