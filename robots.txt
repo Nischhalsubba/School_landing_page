@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://las.edu.np/sitemap.xml
+# Static school website concept. Institutional identity, admissions, contact, transport, and program details must be verified before public indexing.
