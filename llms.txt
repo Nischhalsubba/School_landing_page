@@ -1,32 +1,33 @@
-# Lalitpur Academy School
+# School Landing Page Concept
 
-SEO-first static website for a Nepal-rooted school in Hattiban, Lalitpur.
+This repository contains a static education website concept and frontend demonstration.
 
-## Purpose
+## Important verification notice
 
-Help parents understand the school, explore the Nepal-focused education approach, and request an admissions call for 2026.
+The current interface includes a school name, domain, telephone number, email address, admissions statements, transport information, program descriptions, address details, and structured data.
 
-## Key facts
+These details must not be treated as verified institutional information solely because they appear in this repository.
 
-- School: Lalitpur Academy School
-- Short name: LAS
-- Location: Hattiban, Lalitpur, Nepal
-- Programs: Early Years, Primary School, Middle School, Secondary School
-- Audience: parents and guardians in Lalitpur and Kathmandu Valley
+Before publishing or enabling search indexing:
 
-## Important URLs
+- confirm authorization to represent the named school
+- verify the official domain and contact details
+- verify admissions dates and seat availability
+- verify transport routes and service claims
+- verify programs, age groups, facilities, and policies
+- remove placeholder testimonials, statistics, and staff information
+- ensure forms send data only to an approved and secure backend
 
-- Home: https://las.edu.np/
-- Admissions: https://las.edu.np/#admissions
-- Nepal focus: https://las.edu.np/#nepal
-- Programs: https://las.edu.np/#programs
-- FAQ: https://las.edu.np/#faq
+Do not submit student, parent, payment, identity, or application information through an unverified static demo.
 
-## Technical notes
+## Technology
 
-- Semantic HTML content is visible in the source.
-- Structured data is included with JSON-LD.
-- Sass source: src/scss/main.scss
-- Compiled CSS: css/main.css
-- JavaScript: js/revamp.js
-- No jQuery or heavy front-end framework is required.
+- Static HTML
+- CSS
+- Vanilla JavaScript
+- Responsive and accessible navigation patterns
+- Structured data and social metadata
+
+## Repository
+
+https://github.com/Nischhalsubba/School_landing_page
