@@ -71,3 +71,7 @@ Public pages should use accurate terms such as **school, education, admissions, 
 flowchart LR
     UPDATE["School content / UI change"] --> VERIFY["Verify school information"] --> BUILD["Implement"] --> ACCESS["Responsive + accessibility review"] --> SEO["Metadata check"] --> PR["Pull request"]
 ```
+
+## Content validation and contributor guidance
+
+The [content publication and review guide](docs/ADMISSIONS_CONTENT_QA.md) documents verification, accessibility and rollback expectations for future updates.
