@@ -75,3 +75,7 @@ flowchart LR
 ## Content validation and contributor guidance
 
 The [content publication and review guide](docs/ADMISSIONS_CONTENT_QA.md) documents verification, accessibility and rollback expectations for future updates.
+
+## Owner review checklist
+
+Use [establish school admissions accuracy and accessibility review](./docs/SCHOOL_CONTENT_AND_ADMISSIONS_QA.md) for accurate public content, release evidence, manual acceptance and rollback decisions.
